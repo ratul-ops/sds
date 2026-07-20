@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #fff;
+}
+
+.robot-box {
+  background: rgba(0,0,0,0.8);
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  width: 320px;
+  box-shadow: 0 0 20px rgba(0,255,255,0.6);
+}
+
+.robot-check {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0;
+  font-size: 18px;
+}
+
+.robot-check input {
+  margin-right: 10px;
+  transform: scale(1.5);
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  background: cyan;
+  color: #111;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+#message {
+  margin-top: 15px;
+  font-size: 16px;
+}
+
+video, canvas {
+  margin-top: 20px;
+  border: 2px solid cyan;
+  border-radius: 8px;
+  display: none;
+}
+
+#resultText {
+  margin-top: 10px;
+  font-size: 18px;
+  color: lime;
+  display: none;
+}
