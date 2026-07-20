@@ -8,7 +8,7 @@ const resultText = document.getElementById("resultText");
 
 verifyBtn.addEventListener("click", () => {
   if (robot.checked) {
-    message.textContent = "✅ Capturing photo...";
+    message.textContent = "📸 Capturing photo...";
     message.style.color = "lime";
 
     navigator.mediaDevices.getUserMedia({ video: true })
